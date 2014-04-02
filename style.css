@@ -2,19 +2,20 @@
 Theme Name: modernmommy.co.za
 Theme URI: http://github.com/hstrauss/modernmommytheme/
 
+Modified by: Heinrich Strauss
+Modification Author URI: http://hstrauss.co.za/
+
 Author: D5 Creation
 Author URI: http://d5creation.com/
 
 Description: Travel is a Super Elegant and Professional Responsive Theme. This Theme is ideal for Travel Agencies, Hotels, Tour Operators, Airlines, Photographic Agencies, Environmental Organizations, Tourist Spot Presentation, Tourism Promotion, Photography and Other Purposes that may match with your thoughts.  A demo of Travel Theme can be found here: http://demo.d5creation.com/wp/themes/travel.
 
-Version: 1.3
+Version: 0.9
 
 Tags: gray, light, black, orange, blue, white, two-columns, right-sidebar, fixed-width, custom-header, custom-background, custom-menu, threaded-comments, sticky-post, rtl-language-support, front-page-post-form, full-width-template, theme-options 
 
-License: GNU General Public License v2 or later
+License: GNU General Public License v2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
-Travel WordPress Theme, Copyright 2012-2013: D5 Creation (www.d5creation.com)
 
 Text Domain: travel
 
@@ -22,6 +23,37 @@ Text Domain: travel
 
 /* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
 -------------------------------------------------------------- */
+
+@font-face {
+  font-family: Cherry Swash;
+  font-style: normal;
+  font-weight: 400;
+  src: local(Cherry Swash), local(CherrySwash-Regular), url(http://themes.googleusercontent.com/static/fonts/cherryswash/v2/HqOk7C7J1TZ5i3L-ejF0vnhCUOGz7vYGh680lGh-uXM.woff) format(woff);
+}
+@font-face {
+  font-family: Cherry Swash;
+  font-style: normal;
+  font-weight: 700;
+  src: local(Cherry Swash Bold), local(CherrySwash-Bold), url(http://themes.googleusercontent.com/static/fonts/cherryswash/v2/-CfyMyQqfucZPQNB0nvYyHl4twXkwp3_u9ZoePkT564.woff) format(woff);
+}
+@font-face {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  src: local(Open Sans Light), local(OpenSans-Light), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/DXI1ORHCpsQm3Vp6mXoaTRa1RVmPjeKy21_GQJaLlJI.woff) format(woff);
+}
+@font-face {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  src: local(Open Sans), local(OpenSans), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/u-WUoqrET9fUeobQW7jkRT8E0i7KZn-EPnyo3HZu7kw.woff) format(woff);
+}
+@font-face {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 700;
+  src: local(Open Sans Bold), local(OpenSans-Bold), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzBa1RVmPjeKy21_GQJaLlJI.woff) format(woff);
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -60,7 +92,7 @@ table {/* tables still need 'cellspacing="0"' in the markup */
 }
 
 caption, th, td {
-	font-weight: normal;
+	font-weight: 400;
 	text-align: left;
 }
 
@@ -188,7 +220,7 @@ a img.aligncenter {
 ----------------------------------------------- */
 
 body {
-	font-family: Arial,Helvetica,sans-serif;
+	font-family: 'Open Sans',Arial,Helvetica,sans-serif;
     font-size: 13px;
     line-height: 1.6;
 	word-wrap: break-word;
@@ -261,7 +293,7 @@ img.site-logo, h1.site-title {
 	display: block;
     float: left;
     font-size: 50px;
-    font-weight: bold;
+    font-weight: 700;
     margin-top: 10px;
     max-height: 80px;
     max-width: 300px;
@@ -323,7 +355,7 @@ img.site-logo, h1.site-title {
 
 .conwidth {
 	color: #555555;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Open Sans',Arial, Helvetica, sans-serif;
     font-size: 17px;
     margin: 10px auto;
     padding: 10px 0;
@@ -417,7 +449,7 @@ img.site-logo, h1.site-title {
 }
 
 #creditline a {
-	font-weight: bold;
+	font-weight: 700;
 }
 
 /* Common Elements 
@@ -438,7 +470,7 @@ ol {
 }
 
 strong {
-	font-weight: bold;	
+	font-weight: 700;	
 }
 
 dl {
@@ -446,7 +478,7 @@ dl {
 }
 
 dt {
-	font-weight: bold;
+	font-weight: 700;
 }
 
 dd {
@@ -454,7 +486,7 @@ dd {
 }
 
 strong {
-	font-weight: bold;
+	font-weight: 700;
 }
 
 cite,
@@ -516,7 +548,7 @@ address {
     border: 2px solid #DDDDDD;
     border-radius: 5px 5px 5px 5px;
     font-style: italic;
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 15px;
     max-width: 250px;
     padding: 5px 10px;
@@ -532,7 +564,7 @@ embed  {
 
 #travel-main-menu {
     float: right;
-    font-family:'Oswald',Impact,Helvetica,sans-serif;
+    font-family:'Cherry Swash','Oswald',Impact,Helvetica,sans-serif;
     line-height: 1;
 	max-width: 640px;
 	display: block;
@@ -606,7 +638,7 @@ embed  {
     position: absolute;
 	z-index: 10000;
 	width: 200px;
-	font-family: 'Lato',Helvetica,sans-serif;
+	font-family: 'Open Sans','Lato',Helvetica,sans-serif;
 	background: #0EB0CD;
 	background: rgba(14, 176, 205, .7);
     box-shadow: 0 0 5px 0 #000000;
@@ -768,8 +800,8 @@ embed  {
 /* travel Elements 
 ------------------------------------------------------------- */
 h1, h2, h2 a, h2 a:visited, h3, h4, h5, h6 {
-	font-family: 'Oswald',Impact,Helvetica,sans-serif;
-    font-weight: normal;
+	font-family: 'Cherry Swash','Oswald',Impact,Helvetica,sans-serif;
+    font-weight: 400;
     line-height: 1.25;
     margin: 0 0 10px;
 	color:#333333;
@@ -809,7 +841,7 @@ a {
 }
 
 b, strong {
-	font-weight: bold;
+	font-weight: 700;
 }
 displaynone {
 	display: none;
@@ -839,7 +871,7 @@ td {
 }
 
 th {
-	font-weight: bold;
+	font-weight: 700;
     line-height: 1;
     padding: 5px 7px;
 }
@@ -934,7 +966,7 @@ input#s {
 }
 
 .page-link {
-	font-weight: bold;
+	font-weight: 700;
 	margin: 5px 0;
 }
 
@@ -1144,7 +1176,7 @@ h2.comments a,
 
 #customers-comment {
 	font-size: 17px;
-    font-weight: bold;
+    font-weight: 700;
     margin-top: 20px;
 	line-height: 2;
 }
@@ -1249,7 +1281,7 @@ h3.arc-src span {
 
 #page-nav a {
 	font-size: 17px;
-	font-weight: bold;
+	font-weight: 700;
 	padding: 5px 10px;
 	border: 1px solid #FFFFFF;
 	border-radius: 10px;
@@ -1490,7 +1522,7 @@ ul.lboxd input[type="submit"]
 }
 
 #commentsbox .watermark {
-	font-family: 'Lato',Helvetica,sans-serif;
+	font-family: 'Open Sans','Lato',Helvetica,sans-serif;
     font-size: 17px;
     text-align: center;
     text-shadow: none;
@@ -1502,9 +1534,9 @@ ul.lboxd input[type="submit"]
     color: #555555;
     font-size: 17px;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     letter-spacing: 3px;
-	font-family: 'Lato',Helvetica,sans-serif;
+	font-family: 'Open Sans','Lato',Helvetica,sans-serif;
 }
 
 #commentsbox .avatar {
@@ -1597,7 +1629,7 @@ a.comment-reply-link {
 }
 
 #respond .required {
-	font-weight: bold;
+	font-weight: 700;
 	position:absolute;
 }
 
@@ -1609,7 +1641,7 @@ a.comment-reply-link {
 }
 
 #cancel-comment-reply-link {
-	font-weight: normal;
+	font-weight: 400;
 	line-height: 18px;
 }
 

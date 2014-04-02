@@ -564,7 +564,7 @@ embed  {
 
 #travel-main-menu {
     float: right;
-    font-family:'Cherry Swash','Oswald',Impact,Helvetica,sans-serif;
+    font-family:'Open Sans','Cherry Swash','Oswald',Impact,Helvetica,sans-serif;
     line-height: 1;
 	max-width: 640px;
 	display: block;
@@ -800,7 +800,6 @@ embed  {
 /* travel Elements 
 ------------------------------------------------------------- */
 h1, h2, h2 a, h2 a:visited, h3, h4, h5, h6 {
-	font-family: 'Cherry Swash','Oswald',Impact,Helvetica,sans-serif;
     font-weight: 400;
     line-height: 1.25;
     margin: 0 0 10px;
@@ -1043,6 +1042,7 @@ input#s {
     padding: 20px;
     position: relative;
     width: 290px;
+    font-family: 'Open Sans',sans-serif;
 }
 
 .featured-box .read-more {
@@ -1812,3 +1812,6 @@ ul,  ol,  dl {
 #slide-container { width: auto;  }
 }
 #creditline {display:none;}
+h1.site-title { font-family: 'Cherry Swash','Open Sans',sans-serif;
+font-weight: 700;
+max-width: 600px;}

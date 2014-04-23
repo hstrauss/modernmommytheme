@@ -8,7 +8,7 @@ body, .featured-boxs img, img.fcon-image, #footer, #header, #footer-sidebar .wid
 .featured-boxs { width: 104%; margin: -2% -2% 2%; }
 .featured-contents { width: 104%; margin: -2% -2% 2%; }
 img.site-logo, h1.site-title { width: 30%; }
-.featured-contents #right-sidebar, #right-sidebar { width: 30%; float: right; }
+.featured-contents #right-sidebar, #right-sidebar { width: 30%; align:center; }
 #right-sidebar .widget { width: auto; }
 #travel-main-menu, .featured-contents #content, #content { max-width: 65%; }
 .featured-boxs .featured-box { width: 28%; height: auto; }

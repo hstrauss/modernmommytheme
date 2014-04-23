@@ -1,6 +1,6 @@
 <?php
 /**
- * travel Options Page
+ * Modern Mommy Options Page
  * @ Copyright: D5 Creation, All Rights, www.d5creation.com
  */
 
@@ -28,11 +28,12 @@ function optionsframework_options() {
 	add_filter( 'wp_default_editor', create_function('', 'return "html";') );
 	
 	$options[] = array(
-		'name' => 'Travel Options',
+		'name' => 'Modern Mommy Options',
 		'type' => 'heading');
 		
 	$options[] = array(
-		'desc' => '<div class="infohead"><span class="donation">If you like this FREEE Theme You can consider for a small Donation to us. Your Donation will be spent for the Disadvantaged Children and Students. You can visit our <a href="http://d5creation.com/donate/" target="_blank"><strong>DONATION PAGE</strong></a> and Take your decision.</span><br /><br /><span class="donation"> Need More Features and Options including Exciting Slide and 100+ Advanced Features? Try <a href="http://d5creation.com/theme/travel/" target="_blank"><strong>Travel Extend</strong></a>.</span><br /> <br /><span class="donation"> You can Visit the Travel Extend Demo <a href="http://demo.d5creation.com/wp/themes/travel/" target="_blank"><strong>Here</strong></a>.</span></div>',
+//		'desc' => '<div class="infohead"><span class="donation">If you like this FREEE Theme You can consider for a small Donation to us. Your Donation will be spent for the Disadvantaged Children and Students. You can visit our <a href="http://d5creation.com/donate/" target="_blank"><strong>DONATION PAGE</strong></a> and Take your decision.</span><br /><br /><span class="donation"> Need More Features and Options including Exciting Slide and 100+ Advanced Features? Try <a href="http://d5creation.com/theme/travel/" target="_blank"><strong>Travel Extend</strong></a>.</span><br /> <br /><span class="donation"> You can Visit the Travel Extend Demo <a href="http://demo.d5creation.com/wp/themes/travel/" target="_blank"><strong>Here</strong></a>.</span></div>',
+		'desc' => '',
 		'type' => 'info');
 	
 	$options[] = array(
@@ -73,8 +74,8 @@ function optionsframework_options() {
 		'type' => 'info');
 		
 	$options[] = array(
-		'name' => 'Google Plus Link',
-		'desc' => 'Input your Google Plus URL here.',
+		'name' => 'Twitter Link',
+		'desc' => 'Input your Twitter URL here.',
 		'id' => 'gplus-link',
 		'std' => '#',
 		'type' => 'text');
@@ -98,6 +99,13 @@ function optionsframework_options() {
 		'desc' => '<span class="featured-area-title">' . 'Front Page Featured Image: ' . $fbsinumber . '</span>',
 		'type' => 'info');
 		
+	$options[] = array(
+			'name' => 'Featured Link',
+			'desc' => 'Enter the destination for links from the Image or Read More button',
+			'id' => 'featured-link-url' . $fbsinumber,
+			'std' => '',
+			'type' => 'text');
+	
 	$options[] = array(
 		'name' => 'Featured Image',
 		'desc' => 'Upload an image for the Featured Box. 270px X 200px image is recommended. If you do not want to show anything here leave the box blank.',
@@ -130,7 +138,7 @@ function optionsframework_options() {
 	}
 	
 // Front Page Fearured Contents
-	
+	/*
 	$options[] = array(
 		'desc' => '<span class="featured-area-title">Featured Contents</span>',
 		'type' => 'info');	
@@ -171,7 +179,7 @@ function optionsframework_options() {
 		'type' => 'textarea' );
 
 	}
-	
+	*/
 
 	return $options;
 }

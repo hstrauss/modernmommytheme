@@ -159,7 +159,7 @@ function optionsframework_setdefaults() {
 if ( !function_exists( 'optionsframework_add_page' ) ) {
 
 	function optionsframework_add_page() {
-		$of_page = add_theme_page('Travel Options',  'Travel Options',  'edit_theme_options', 'options-framework','optionsframework_page');
+		$of_page = add_theme_page('Modern Mommy Options',  'Modern Mommy Options',  'edit_theme_options', 'options-framework','optionsframework_page');
 
 		// Load the required CSS and javscript
 		add_action( 'admin_enqueue_scripts', 'optionsframework_load_scripts');
@@ -375,7 +375,7 @@ function optionsframework_adminbar() {
 	$wp_admin_bar->add_menu( array(
 			'parent' => 'appearance',
 			'id' => 'of_theme_options',
-			'title' => 'Travel Options', 
+			'title' => 'Modern Mommy Options', 
 			'href' => admin_url( 'themes.php?page=options-framework' )
 		));
 }

@@ -10,13 +10,13 @@
 <?php foreach (range(1, 3) as $fboxn) { ?>
 <span class="featured-box">
 <h2><?php echo of_get_option('featured01-title' . $fboxn, 'Featured'); ?><span> <?php echo of_get_option('featured02-title' . $fboxn, 'Image'); ?></span></h2>
-<img src="<?php echo of_get_option('featured-image' . $fboxn, get_template_directory_uri() . '/images/featured-image'. $fboxn . '.jpg'); ?>"/>
-<p><?php echo of_get_option('featured-description' . $fboxn, 'A Smart way of Natural Presence. This is a Test Description and you can change it from the Theme Options.'); ?></p>
+<a href="<?php echo of_get_option('featured-link-url' . $fboxn, '/'); ?>"><img src="<?php echo of_get_option('featured-image' . $fboxn, get_template_directory_uri() . '/images/featured-image'. $fboxn . '.jpg'); ?>"/></a>
+<p><?php echo of_get_option('featured-description' . $fboxn, 'A Smart way of Natural Presence. This is a Test Description and you can change it from the Theme Options.'); ?><br /><a class="featlink" href="<?php echo of_get_option('featured-link-url' . $fboxn, '/'); ?>">READ MORE</a></p>
 </span>
 <?php } ?>
 </div> <!-- featured-boxs -->
 
-
+<!-- 
 <div class="featured-contents">
 <?php foreach (range(1, 3) as $fboxn2) { ?>
 <span class="featured-content">
@@ -26,6 +26,6 @@
 </span>
 <?php  } ?>
 
-</div> <!-- featured-contents -->
+</div> --> <!--  featured-contents -->
 
 <div class="sep2">sep</div>

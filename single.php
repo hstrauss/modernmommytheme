@@ -17,7 +17,7 @@ get_header(); ?>
           
             <h1 class="page-title"><?php the_title(); ?></h1><div class="content-ver-sep fwtsep"></div>
             <span class="postmetadata"><h3><?php the_time('j F Y'); ?></h3><div class="content-ver-sep"> </div><h2>By: <?php the_author_posts_link() ?></h2>Posted in <?php the_category(', ') ?><?php the_tags('<br />Tags: ', ', ', ''); ?><br /><h5><?php edit_post_link('Edit'); ?></h5></span>	
-            <div class="entrytext"><div class="thumb"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a></div>
+            <div class="entrytext"><div class="thumb"><a href="/blog/"><?php the_post_thumbnail(); ?></a></div>
 			<?php the_content(); ?>
             </div>
             <div class="clear"> </div>

@@ -932,6 +932,7 @@ input[type="submit"]:hover,
 }
 
 input[type="text"], 
+input[type="email"], 
 textarea, input#s, 
 input[type="password"],
 textarea#comment, select {

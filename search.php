@@ -23,8 +23,8 @@ get_header(); ?>
 			
 				<div <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 				<h2 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h2>
- <span class="postmetadata"><h3><?php the_time('F j, Y'); ?></h3><div class="content-ver-sep"> </div><h2>By: <?php the_author_posts_link() ?></h2><h5><?php comments_popup_link('No Comments Yet&#187;', '1 Comment &#187;', '% Comments &#187;'); ?></h5>Posted in <?php the_category(', ') ?><?php the_tags('<br />Tags: ', ', ', ''); ?><br /><h5><?php edit_post_link('Edit This Post'); ?></h5></span>	
- <div class="entrytext"><div class="thumb"><?php the_post_thumbnail(); ?></div>
+ <span class="postmetadata"><h3><?php the_time('j F Y'); ?></h3><div class="content-ver-sep"> </div><h2>By: <?php the_author_posts_link() ?></h2><h5><?php comments_popup_link('No Comments Yet&#187;', '1 Comment &#187;', '% Comments &#187;'); ?></h5>Posted in <?php the_category(', ') ?><?php the_tags('<br />Tags: ', ', ', ''); ?><br /><h5><?php edit_post_link('Edit This Post'); ?></h5></span>	
+ <div class="entrytext"><div class="thumb"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a></div>
  <?php the_excerpt(); ?>
  <div class="clear"> </div>
  </div></div>

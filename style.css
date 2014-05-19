@@ -25,31 +25,31 @@ Text Domain: travel
 -------------------------------------------------------------- */
 
 @font-face {
-  font-family: Cherry Swash;
+  font-family: 'Cherry Swash';
   font-style: normal;
   font-weight: 400;
   src: local(Cherry Swash), local(CherrySwash-Regular), url(http://modernmommy.co.za/res/CherrySwash-Regular.woff) format(woff), url(http://themes.googleusercontent.com/static/fonts/cherryswash/v2/HqOk7C7J1TZ5i3L-ejF0vnhCUOGz7vYGh680lGh-uXM.woff) format(woff);
 }
 @font-face {
-  font-family: Cherry Swash;
+  font-family: 'Cherry Swash';
   font-style: normal;
   font-weight: 700;
   src: local(Cherry Swash Bold), local(CherrySwash-Bold), url(http://modernmommy.co.za/res/CherrySwash-Bold.woff) format(woff), url(http://themes.googleusercontent.com/static/fonts/cherryswash/v2/-CfyMyQqfucZPQNB0nvYyHl4twXkwp3_u9ZoePkT564.woff) format(woff);
 }
 @font-face {
-  font-family: Open Sans;
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 300;
   src: local(Open Sans Light), local(OpenSans-Light), url(http://modernmommy.co.za/res/OpenSans-Light.woff), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/DXI1ORHCpsQm3Vp6mXoaTRa1RVmPjeKy21_GQJaLlJI.woff) format(woff);
 }
 @font-face {
-  font-family: Open Sans;
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   src: local(Open Sans), local(OpenSans), url(http://modernmommy.co.za/res/OpenSans-Regular.woff), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/u-WUoqrET9fUeobQW7jkRT8E0i7KZn-EPnyo3HZu7kw.woff) format(woff);
 }
 @font-face {
-  font-family: Open Sans;
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
   src: local(Open Sans Bold), local(OpenSans-Bold), url(http://modernmommy.co.za/res/OpenSans-Bold.woff), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzBa1RVmPjeKy21_GQJaLlJI.woff) format(woff);
@@ -548,7 +548,7 @@ sub {
 
 address {
 	background: #EEEEEE;
-    border: 2px solid #DDDDDD;
+    border: 2px solid #e6e6e6;
     border-radius: 5px 5px 5px 5px;
     font-style: italic;
     font-weight: 700;
@@ -847,7 +847,7 @@ p {
 
 a {
 	text-decoration:none;
-	color: #00ACCF;	
+	color: #0099CC;	
 }
 
 b, strong {
@@ -899,11 +899,11 @@ input[type="button"],
 input[type="submit"],
 #respond .form-submit input#submit,
 #wp-submit {
-	background:#00ACCF;
+	background:#0099CC;
 	background: -moz-linear-gradient( top, #00adcf 0%, #00adcf 50%, #00c7ef 65%, #00c7ef);
 	background: -webkit-gradient( linear, left top, left bottom, from(#00adcf), color-stop(0.50, #00adcf), color-stop(0.65, #00c7ef), to(#00c7ef));
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ACCF', endColorstr='#00C7EF');
-	border-radius: 10px;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0099CC', endColorstr='#00C7EF');
+	border-radius: 4px;
 	display:inline-block;
 	color:#000000;
 	font-size:15px;
@@ -928,7 +928,7 @@ input[type="submit"]:hover,
 	background:#00c7ef;
 	background: -moz-linear-gradient( bottom, #00adcf 0%, #00adcf 50%, #00c7ef 65%, #00c7ef);
 	background: -webkit-gradient( linear, right bottom, right top, from(#00adcf), color-stop(0.50, #00adcf), color-stop(0.65, #00c7ef), to(#00c7ef));
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00C7EF', endColorstr='#00ACCF');
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00C7EF', endColorstr='#0099CC');
 }
 
 input[type="text"], 
@@ -936,7 +936,7 @@ input[type="email"],
 textarea, input#s, 
 input[type="password"],
 textarea#comment, select {
-   	border-radius: 10px;
+   	border-radius: 4px;
     font-size: 14px;
     padding: 7px 7px;
     width: 98%;
@@ -982,7 +982,7 @@ input#s {
 }
 
 .page-link a{
-	background: #00ACCF;
+	background: #0099CC;
     border-radius: 20px;
     color: #FFFFFF;
     padding: 5px 9px;
@@ -1194,7 +1194,7 @@ img.fcon-image:hover {
 .featured-content h2 span, .featured-box h2 span,
 h2.comments a,
 .featured-contents h2.fpagenews span {
-	color: #00ACCF;
+	color: #0099CC;
 }
 
 #customers-comment {
@@ -1260,7 +1260,7 @@ blockquote p,  q p  {
 
 #container .thumb:hover {
 	
-	border-color: #00ACCF;
+	border-color: #0099CC;
 }
 
 #container .attachment-post-thumbnail {
@@ -1288,7 +1288,7 @@ h2.post-title-color {
 h3.arc-src {
 	text-transform: uppercase;
 	font-size: 20px;
-	color:#00ACCF;
+	color:#0099CC;
 }
 
 h3.arc-src span {
@@ -1362,7 +1362,7 @@ h3.arc-src span {
 .read-more:hover {
 	
 	background:#EEEEEE;
-	color: #00ACCF;
+	color: #0099CC;
 	
 }
 
@@ -1373,7 +1373,7 @@ h3.arc-src span {
 }
 
 .postmetadata {
-	background:#06A8DD;
+	background:#0099CC;
 	background: rgba(37, 157, 213, .7);
 	position: absolute;
 	width: 200px;
@@ -1400,7 +1400,7 @@ h3.arc-src span {
 	width: 250px;
 	max-height:2000px;
 	z-index: 1000;
-	background:#06A8DD;
+	background:#0099CC;
 }
 
 .postmetadata h3,
@@ -1580,7 +1580,7 @@ ul.lboxd input[type="submit"]
 }
 
 #commentsbox .avatar:hover {
-	background: #00ACCF;
+	background: #0099CC;
 }
 
 #commentsbox ul.children {
@@ -1589,8 +1589,8 @@ ul.lboxd input[type="submit"]
 
 
 .comment-body {
-	background: #DDDDDD;
-    border-right: 2px solid #06a8dd;
+	background: #EEEEEE;
+    border-right: 2px solid #0099CC;
     padding: 15px;
     position: relative;
 }
@@ -1645,7 +1645,7 @@ a.comment-reply-link {
 }
 
 #comment-form {
-	background:#DDDDDD;
+	background:#e6e6e6;
     border: 1px solid #EEEEEE;
     border-radius: 10px 10px 10px 10px;
     padding: 10px;
